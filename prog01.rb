@@ -37,7 +37,7 @@ frame[0][1] = 'Y'
 
 # draw graph
 for x in 0..79 do
-  y << $func
+  
   frame << '*'
 end
 
