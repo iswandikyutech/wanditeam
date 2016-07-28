@@ -37,9 +37,9 @@ frame [0][22] = $func
 
 # draw graph
 for x in 0..79 do
-###
-### 分担2
-###
+  
+  frame << '*'
+
 end
 
 # printout
