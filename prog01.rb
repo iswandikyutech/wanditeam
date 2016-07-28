@@ -31,14 +31,15 @@ frame[23][78] = 'X'
 frame[0][1] = 'Y'
 
 # draw func
-###
-### 分担3
-###
+frame [0][20] = 'y'
+frame [0][21] = '='
+frame [0][22] = $func
 
 # draw graph
 for x in 0..79 do
   frame = frame[f(x)][x]
   frame << '*'
+
 end
 
 # printout
