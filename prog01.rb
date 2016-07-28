@@ -37,9 +37,9 @@ frame [0][22] = $func
 
 # draw graph
 for x in 0..79 do
-  frame = frame[f(x)][x]
-  frame << '*'
-
+  x1 = x / 79.0
+  y = (f(x1) * 24.0).floor
+  frame[24-y][x] = '*'
 end
 
 # printout
